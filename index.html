@@ -1,27 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- this is header -->
-    <header>
-        
+    <header id="header-area">
+        <div class="banner-content">
+            <h1 class="content-title">
+                All Thinks Are Possible If You believe
+            </h1>
+            <p class="content-description">There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration in some
+                form, by injected humour, or randomised words
+            </p>
+            <button class="btn-primary">Contact Us</button>
+        </div>
     </header>
 
     <!-- this main sections -->
     <main>
 
+        <!-- this is failure section -->
+
+        <div class="failure-section container">
+            <div class="left-side-content">
+                <img src="images/person.png" alt="person">
+            </div>
+            <div class="right-side-content">
+                <h2 class="failure-title">
+                    My failures of previous year
+                </h2>
+                <p class="failure-desc">
+                    Contrary to popular belief, Lorem Ipsum is not
+                    simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over
+                    2000 years old. Richard McClintock.
+                </p>
+                <ul class="failure-list">
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular belief.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular , is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular simply.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- this is plans section -->
+        <section class="plans-section container">
+            <h2 class="plans-tittle">My Plans</h2>
+            <div class="programmings">
+                <div class="single-programming">
+                    <img src="images/icons/web.png" alt="">
+                    <h3>Web Development</h3>
+                    <h4>I want to start</h4>
+                </div>
+                <div class="single-programming">
+                    <img src="images/icons/js.png" alt="">
+                    <h3>Javascript</h3>
+                    <h4>I want to start</h4>
+                </div>
+                <div class="single-programming">
+                    <img src="images/icons/smoke.png" alt="">
+                    <h3>Smoking Habit</h3>
+                    <h4>I want to start</h4>
+                </div>
+                <div class="single-programming">
+                    <img src="images/icons/ecom.png" alt="">
+                    <h3>ecommerce</h3>
+                    <h4>I want to start</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- this is mindset section -->
+        <section class="mindset-section container">
+            <div class="mindset">
+                <h3 class="mindset-tittle">Awlays keep a positive mindset</h3>
+                <button class="btn-secondary">Call Now</button>
+            </div>
+        </section>
+
+
     </main>
 
     <!-- this is footer -->
-    <footer>
-
+    <footer class="footer container">
+        <div class="footer-left">
+            <h3 class="left-titlle">Future</h3>
+            <p class="left-descript">There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration in some
+                form, by injected humour, or randomised words</p>
+            <ul class="contacts">
+                <li>Email : info@gmail.com</li>
+                <li>Phone : 01500 00 00 00</li>
+            </ul>
+            <ul class="socials">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <h4 class="right-footer-tittle">
+                Subscribe
+            </h4>
+            <input type="text" placeholder="Enter Your Email">
+            <button class="btn-classic">Subscribe</button>
+        </div>
     </footer>
 </body>
+
 </html>
